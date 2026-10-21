@@ -1,7 +1,7 @@
 /**
  * Automated Verification & Timestamp Evidence Suite for Practical 10:
  * Asynchronous Processing with Event-Driven Architecture (Node.js EventEmitter)
- * Student: Dharm Lakhani (24CS046) | Course: ITUE301
+ * Student: Rudra Vaghela (24CS105) | Course: ITUE301
  */
 
 const http = require('http');
@@ -64,14 +64,14 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 async function runTests() {
   console.log('===============================================================');
   console.log('  Practical 10: Node.js EventEmitter Asynchronous Verification');
-  console.log('  Student: Dharm Lakhani (24CS046) | Course: ITUE301');
+  console.log('  Student: Rudra Vaghela (24CS105) | Course: ITUE301');
   console.log('===============================================================\n');
 
   const timestamp = Date.now();
   const testUser = {
     email: `events_student_${timestamp}@charusat.edu.in`,
     password: 'SecureEventsPassword123!',
-    name: 'Dharm Lakhani'
+    name: 'Rudra Vaghela'
   };
 
   let authToken = null;
